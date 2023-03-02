@@ -161,5 +161,7 @@ input[type=text]:focus{
     border-radius: 75px;
     font-size: 45px;
     color: rgb(66, 66, 66);
-    border: 3px solid rgb(122, 122, 122);
+    border: 3px solid rgb(158, 158, 158);
+    box-shadow:0 0 20px 0 rgb(0, 0, 0);
+    box-shadow:0 0 20px 0 rgb(0, 0, 0),0 0 10px 0 rgb(0, 0, 0) inset ;
 }

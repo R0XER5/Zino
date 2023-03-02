@@ -142,12 +142,24 @@ input[type=text]:focus{
     right: 0;
     z-index: 950;
 }
-.black{
-background-color: black;
-width: 176px;
-height: 70px;
-position: absolute;
-top: 30px;
-left: calc(50% - 30px);
-z-index: 900;
+.radio{
+    left: 30px;
+}
+.Referance{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    height: 230px;
+    width: 571px;
+}
+.basaDon{
+    background-color: rgb(196, 196, 196);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+    font-size: 45px;
+    color: rgb(66, 66, 66);
+    border: 3px solid rgb(122, 122, 122);
 }

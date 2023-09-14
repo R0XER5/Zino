@@ -126,6 +126,7 @@ input[type=text]:focus{
     background-color: #1381a0;
     z-index: -2;
     box-shadow:0 0 20px 0 rgb(0, 0, 0),
+    
 }
 .contents{
     padding-left: 8px;
@@ -138,13 +139,13 @@ input[type=text]:focus{
 }
 .zinoHeader{
     background-color: transparent;
-    left: 200px;
+    left: 250px;
     align-items: center;
     align-content: center;
     right: 0;
     z-index: 950;
-    display: inline-block;
-    padding-left: 500px;
+    display: inline-flex;
+    padding-left: 540px;
 }
 
 .radio{
@@ -223,4 +224,15 @@ input[type=text]:focus{
     border-color:rgb(0, 0, 0);  
     color: #1381a0;
 
+}
+.navbar{
+     padding-left: 900px;
+}
+.navbarBackground{
+    background-color: #ffffff;
+    height: 55px;
+    width: 470px;
+    padding: 11px;
+    padding-left: 7px;
+    border-radius: 12px;
 }
